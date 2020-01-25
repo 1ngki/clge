@@ -1,0 +1,17 @@
+{
+  "name": "clge",
+  "version": "1.0.0",
+  "description": "Test project",
+  "private": true,
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [
+    "react",
+    "express",
+    "node"
+  ],
+  "author": "Kirill Nagorny <art.ngki@gmail.com>",
+  "license": "ISC"
+}
