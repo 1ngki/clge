@@ -1,0 +1,87 @@
+.header {
+  background-color: white;
+}
+
+p {
+  margin-bottom: 0px;
+}
+
+.nounderline {
+  text-decoration: none !important;
+}
+
+.logo {
+  font-size: 60px;
+  font-weight: 900;
+  text-transform: uppercase;
+  text-align: left;
+  color: #008eff;
+  padding-top: 37px;
+}
+
+.search {
+  position: relative;
+  top: 50px;
+}
+
+.search:active,
+:hover,
+:focus {
+  outline: none;
+}
+
+.search-icon {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  filter: invert(61%) sepia(96%) saturate(5815%) hue-rotate(191deg) brightness(106%) contrast(104%);
+  top: 12px;
+  left: 10px;
+}
+
+.search-input {
+  width: 250px;
+  height: 50px;
+  font-size: 18px;
+  border: 1px solid lightgrey;
+  border-radius: 20px;
+  padding-left: 50px;
+}
+
+.notice {
+  width: 50px;
+  height: 50px;
+  background: transparent;
+  border-style: none;
+  filter: invert(61%) sepia(96%) saturate(5815%) hue-rotate(191deg) brightness(106%) contrast(104%);
+  padding-top: 56px;
+}
+
+.login {
+  text-align: right;
+  padding-top: 45px;
+}
+
+.login-info {
+  font-weight: 900;
+  font-size: 17px;
+  padding-top: 5px;
+}
+
+.login-icon {
+  width: 55px;
+  height: 55px;
+  background: transparent;
+  border-style: none;
+  padding-left: 15px;
+}
+
+.weather {
+  text-align: left;
+  padding-top: 45px;
+  text-transform: capitalize;
+}
+
+.weather-info {
+  margin-left: 50px;
+}

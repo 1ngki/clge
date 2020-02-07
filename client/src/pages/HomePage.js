@@ -1,9 +1,10 @@
 import React from 'react';
+import { Header } from '../sections/HomePage/Header';
 
 export const HomePage = () => {
   return (
     <div className="row">
-      <h1>Home Page</h1>
+      <Header />
     </div>
   );
 };
