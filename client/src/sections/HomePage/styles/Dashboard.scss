@@ -1,0 +1,34 @@
+.slick-next {
+  width: 0;
+  height: 0;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+
+  border-left: 10px solid #008eff;
+
+&::before {
+   display: none;
+ }
+}
+
+.slick-prev {
+  width: 0;
+  height: 0;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+
+  border-right: 10px solid #008eff;
+
+&::before {
+   display: none;
+ }
+}
+
+.slick-dots li button:before {
+  font-size: 15px;
+  line-height: 15px;
+}
+
+.slick-dots li.slick-active button:before {
+  color: #008eff;
+}
